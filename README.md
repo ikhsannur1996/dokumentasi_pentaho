@@ -92,29 +92,15 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 
 1. Jika menggunakan Crontab Job, simpan konfigurasi Crontab sebelum pembaruan.
 2. Perbarui atau sesuaikan Crontab Job sesuai dengan perubahan mungkin pada definisi Job dan Transformasi.
-
-### Langkah 8: Testing Job dan Transformasi
-
-1. Lakukan uji coba menyeluruh pada Job dan Transformasi setelah pembaruan.
-2. Perhatikan log dan hasil eksekusi untuk mendeteksi potensi masalah atau perubahan perilaku.
-
-### Langkah 9: Perubahan dan Peningkatan Job dan Transformasi
-
-1. Baca catatan rilis secara rinci untuk memahami perubahan dan peningkatan khusus pada Job dan Transformasi.
-2. Komunikasikan perubahan ini kepada tim pengguna atau admin yang terkait.
-
-### Langkah 10: Tinjau Konfigurasi dan Integrasi Job dan Transformasi
-
 1. Tinjau kembali konfigurasi Pentaho untuk memastikan integrasi yang baik dengan Job dan Transformasi.
 2. Sesuaikan konfigurasi jika diperlukan untuk mempertahankan integrasi.
 
-### Langkah 11: Backup Konfigurasi dan Definisi Job/Transformasi
+### Langkah 7: Backup Konfigurasi dan Definisi Job/Transformasi
 
 1. Pastikan file konfigurasi dan definisi Job/Transformasi di-backup kembali.
 2. Simpan backup ini di tempat yang aman untuk pemulihan jika diperlukan.
 
-### Langkah 12: Dukungan Komunitas atau Vendor
-
+### Langkah 8: Dukungan Komunitas
 1. Bergabunglah dengan forum komunitas Pentaho atau hubungi dukungan teknis jika mengalami masalah terkait Job dan Transformasi.
 2. Manfaatkan sumber daya online untuk pertanyaan dan pemecahan masalah terkait Job dan Transformasi.
 
