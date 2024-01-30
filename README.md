@@ -23,7 +23,7 @@ Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi Pent
       - Pastikan sistem operasi yang didukung, seperti Linux atau Windows, sesuai dengan versi Pentaho yang akan diinstal.
 
    - **Java dan GUI:**
-      - Memerlukan Java versi 8 ke atas.
+      - Instal Java SE 64 bit pada workstation atau laptop tempat Anda ingin menjalankan Pentaho Data Integration (PDI). Versi Java SE antara 11 hingga 18 dapat digunakan.
       - Pastikan sistem memiliki lingkungan GUI (Graphical User Interface) untuk menjalankan antarmuka Pentaho secara optimal.
 
    - **Koneksi Internet:**
@@ -34,6 +34,8 @@ Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi Pent
    
    - **Hak Akses dan Izin:**
       - Memastikan hak akses dan izin yang memadai untuk melakukan instalasi dan konfigurasi.
+   - **Ubuntu/Linux:**
+   - Untuk instalasi pada Linux/Ubuntu, pastikan untuk menginstal libwebkitgtk-1.0-0 agar PDI dapat berfungsi dengan baik. Untuk informasi lebih lanjut, kunjungi halaman Komunitas Hitachi Vantara Pentaho di [https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts](https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts).
 
 Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya siap untuk menginstal dan menjalankan Pentaho Community Edition dengan lancar.
 
