@@ -41,45 +41,45 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 
 ## Langkah-langkah Pembaruan:
 
-### Langkah 1: Identifikasi Versi Terbaru
+### Langkah 1: Persiapan
 
 1. Buka dokumentasi terkait dengan versi stabil/Long Term Support Pentaho di Pentaho Product Version End of Life Policy [https://support.pentaho.com/hc/en-us/articles/205789159-Pentaho-Product-Version-End-of-Life-Policy](https://support.pentaho.com/hc/en-us/articles/205789159-Pentaho-Product-Version-End-of-Life-Policy)
 2. Buka situs resmi untuk Download Pentaho Community Edition di [https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html](https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html).
 3. Di bagian unduhan, temukan dan identifikasi versi terbaru dari Pentaho Community Edition (Direkomendasikan untuk menggunakan Long Term Support untuk Environment Production).
 4. Periksa catatan rilis untuk mendapatkan informasi lebih lanjut tentang perubahan dan peningkatan.
 5. Verifikasi persyaratan terkait dengan versi Pentaho yang akan diinstal. Pentaho memerlukan GUI dan Java versi 8 ke atas.
+6. Jika diperlukan, lakukan testing di Environment Development terlebih dahulu sebelum melakukan Deployment versi Pentaho terbaru di Environment Production.
 .
-### Langkah 2: Backup Data dan Definisi Job/Transformasi
+### Langkah 2: Backup Data dan Konfigurasi Job/Transformasi
 
 1. Buat backup menyeluruh, termasuk konfigurasi pentaho di folder data-integration.
 2. Pastikan backup mencakup folder `jobs` dan `transformations` yang berisi definisi pekerjaan dan transformasi.
+3. Matikan Job/transfomasi yang berjalan di Crontab/Task Schaduler.
 
-### Langkah 3: Implementasi di Lingkungan Pengembangan
-
-1. Terapkan pembaruan versi terbaru di lingkungan pengembangan terlebih dahulu.
-2. Lakukan uji coba menyeluruh pada Job dan Transformasi untuk mendeteksi potensi masalah atau perubahan perilaku.
-
-### Langkah 4: Baca Dokumentasi Resmi
+### Langkah 3: Baca Dokumentasi Resmi
 
 1. Teliti dokumen pembaruan dan catatan rilis untuk versi terbaru terkait fitur Job dan Transformasi.
 2. Pahami perubahan yang mungkin mempengaruhi definisi Job dan Transformasi Anda.
 
-### Langkah 5: Pilih Metode Pembaruan
+### Langkah 4: Metode Pembaruan
 
-1. Tentukan metode pembaruan: otomatis atau manual.
-2. Merujuk pada panduan pembaruan spesifik jika ada pembaruan khusus untuk Job dan Transformasi.
+1. Proses pembaruan Petaho harus dilakukan di folder/direktori yang sama dengan versi sebelumnya.
+2. Pembaruan Pentaho Community Edition hanya dapat dilakukan secara manual dengan mengunduh versi terbaru di website. Terdapat dua sekenario untuk melakukan pembaruan Pentaho Community Edition:
+   -  Pembaruan dilakukan dengan menimpa folder data-integration dari versi Pentaho sebelumnya dengan versi terbaru.
+   -  Menghapus folder data-integration dari versi sebelumnya dan mengekstrak versi Pentaho terbaru di direktori yang sama.
 
-### Langkah 6: Instalasi Patch dan Update Job/Transformasi
+### Langkah 5: Testing GUI Pentaho
+1. Setelah menginstal patch atau melakukan pembaruan pada Pentaho, lakukan pengujian pada antarmuka pengguna grafis (GUI) untuk memastikan bahwa Job atau Transformasi dapat berjalan dengan normal.
+2. Buka Job dan Transformasi yang telah ada menggunakan Pentaho dalam mode GUI.
+3. Jalankan Job dan Transformasi secara manual.
+4. Jika tidak ada pesan error, ini menandakan bahwa proses pembaruan Pentaho Community Edition telah berhasil.
 
-1. Ikuti petunjuk instalasi patch atau update yang diberikan khusus untuk Job dan Transformasi.
-2. Pastikan untuk memeriksa dan memvalidasi definisi Job dan Transformasi setelah pembaruan.
-
-### Langkah 7: Pembaruan Crontab Job
+### Langkah 6: Konfigurasi Crontab/Task Schaduler
 
 1. Jika menggunakan Crontab Job, simpan konfigurasi Crontab sebelum pembaruan.
 2. Perbarui atau sesuaikan Crontab Job sesuai dengan perubahan mungkin pada definisi Job dan Transformasi.
 
-### Langkah 8: Uji Pembaruan Job dan Transformasi
+### Langkah 8: Testing Job dan Transformasi
 
 1. Lakukan uji coba menyeluruh pada Job dan Transformasi setelah pembaruan.
 2. Perhatikan log dan hasil eksekusi untuk mendeteksi potensi masalah atau perubahan perilaku.
