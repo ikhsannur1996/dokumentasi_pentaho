@@ -69,21 +69,21 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
    -  Menghapus folder data-integration dari versi sebelumnya dan mengekstrak versi Pentaho terbaru di direktori yang sama.
 
 ### Langkah 5: Testing Pembaruan melaui GUI Pentaho
-#### 1. Menjalankan Antarmuka Grafis (GUI) Pentaho
-   a. Buka aplikasi Pentaho dengan menjalankan perintah atau menggunakan pintasan yang sesuai dengan sistem operasi yang digunakan.
-   b. Jika menggunakan lingkungan Windows, Anda dapat menggunakan shortcut pada desktop atau mencari aplikasi "Spoon" di menu Start.
-   c. Untuk lingkungan Linux, buka terminal dan navigasikan ke direktori instalasi Pentaho. Jalankan perintah `./spoon.sh` untuk memulai Spoon.
-   d. Tunggu hingga antarmuka grafis Pentaho terbuka.
+**1. Menjalankan Antarmuka Grafis (GUI) Pentaho:**
+   - a. Buka aplikasi Pentaho dengan menjalankan perintah atau menggunakan pintasan yang sesuai dengan sistem operasi yang digunakan.
+   - b. Jika menggunakan lingkungan Windows, Anda dapat menggunakan shortcut pada desktop atau mencari aplikasi "Spoon" di menu Start.
+   - c. Untuk lingkungan Linux, buka terminal dan navigasikan ke direktori instalasi Pentaho. Jalankan perintah `./spoon.sh` untuk memulai Spoon.
+   - d. Tunggu hingga antarmuka grafis Pentaho terbuka.
 
-#### 2. Pengujian Job dan Transformasi
-   a. Setelah antarmuka grafis terbuka, buka Job atau Transformasi yang ingin diuji dengan mengklik menu "File" dan memilih "Open" untuk memilih file yang sesuai.
-   b. Periksa setiap langkah dalam Job dan Transformasi, pastikan tidak ada kesalahan atau peringatan yang muncul.
-   c. Jalankan Job atau Transformasi secara manual dengan mengklik tombol "Run" atau menggunakan opsi yang sesuai.
-   d. Perhatikan output dan log yang dihasilkan selama proses eksekusi.
+**2. Pengujian Job dan Transformasi:**
+   - a. Setelah antarmuka grafis terbuka, buka Job atau Transformasi yang ingin diuji dengan mengklik menu "File" dan memilih "Open" untuk memilih file yang sesuai.
+   - b. Periksa setiap langkah dalam Job dan Transformasi, pastikan tidak ada kesalahan atau peringatan yang muncul.
+   - c. Jalankan Job atau Transformasi secara manual dengan mengklik tombol "Run" atau menggunakan opsi yang sesuai.
+   - d. Perhatikan output dan log yang dihasilkan selama proses eksekusi.
 
-#### 3. Evaluasi Hasil Pengujian
-   a. Jika tidak ada pesan error atau peringatan selama pengujian dan Job atau Transformasi berjalan dengan normal, ini menandakan bahwa proses pembaruan Pentaho Community Edition berhasil.
-   b. Jika ada masalah, periksa log dan pesan error untuk mengidentifikasi penyebabnya, dan ambil langkah-langkah yang diperlukan untuk penyelesaian.
+**3. Evaluasi Hasil Pengujian:**
+   - a. Jika tidak ada pesan error atau peringatan selama pengujian dan Job atau Transformasi berjalan dengan normal, ini menandakan bahwa proses pembaruan Pentaho Community Edition berhasil.
+   - b. Jika ada masalah, periksa log dan pesan error untuk mengidentifikasi penyebabnya, dan ambil langkah-langkah yang diperlukan untuk penyelesaian.
    
 ### Langkah 6: Konfigurasi Crontab/Task Schaduler
 
