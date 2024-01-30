@@ -35,7 +35,7 @@ Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi Pent
    - **Hak Akses dan Izin:**
       - Memastikan hak akses dan izin yang memadai untuk melakukan instalasi dan konfigurasi.
    - **Ubuntu/Linux:**
-   - Untuk instalasi pada Linux/Ubuntu, pastikan untuk menginstal libwebkitgtk-1.0-0 agar PDI dapat berfungsi dengan baik. Untuk informasi lebih lanjut, kunjungi halaman Komunitas Hitachi Vantara Pentaho di [https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts](https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts).
+      - Untuk instalasi pada Linux/Ubuntu, pastikan untuk menginstal libwebkitgtk-1.0-0 agar PDI dapat berfungsi dengan baik. Untuk informasi lebih lanjut, kunjungi halaman Komunitas Hitachi Vantara Pentaho di [https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts](https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts).
 
 Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya siap untuk menginstal dan menjalankan Pentaho Community Edition dengan lancar.
 
