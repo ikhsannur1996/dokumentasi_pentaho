@@ -58,14 +58,14 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 ### Langkah 2: Backup Data dan Konfigurasi Job/Transformasi
 
 1. Buat backup menyeluruh, termasuk konfigurasi pentaho di folder data-integration.
-2. Pastikan backup mencakup folder `jobs` dan `transformations` yang berisi definisi pekerjaan dan transformasi.
+2. Pastikan backup mencakup folder `jobs` dan `transformations` yang berisi konfigurasi pekerjaan dan transformasi.
 3. Matikan Job/transfomasi yang berjalan di Crontab/Task Schaduler.
 4. Simpan konfigurasi Crontab sebelum pembaruan.
 
 ### Langkah 3: Baca Dokumentasi Resmi
 
 1. Teliti dokumen pembaruan dan catatan rilis untuk versi terbaru terkait fitur Job dan Transformasi di [https://help.hitachivantara.com/Documentation/Pentaho](https://help.hitachivantara.com/Documentation/Pentaho).
-2. Pahami perubahan yang mungkin mempengaruhi definisi Job dan Transformasi Anda.
+2. Pahami perubahan yang mungkin mempengaruhi konfigurasi Job dan Transformasi Anda.
 
 ### Langkah 4: Metode Pembaruan
 
@@ -97,9 +97,9 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 1. Setlah proses pembaruan berhasil buka simpan konfigurasi Crontab dan aktifkan kembali Job/Transfomasi yang berjalan.
 2. Jika terdapat perubahan,perbarui atau sesuaikan Crontab Job sesuai dengan perubahan pada Job dan Transformasi.
    
-### Langkah 7: Backup Konfigurasi dan Definisi Job/Transformasi
+### Langkah 7: Backup Konfigurasi Job/Transformasi
 
-1. Pastikan file konfigurasi dan definisi Job/Transformasi di-backup kembali.
+1. Pastikan file konfigurasi Job/Transformasi di-backup kembali.
 2. Simpan backup ini di tempat yang aman untuk pemulihan jika diperlukan.
 
 ### Langkah 8: Dukungan Komunitas
