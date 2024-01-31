@@ -60,7 +60,7 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 
 ### Langkah 3: Baca Dokumentasi Resmi
 
-1. Teliti dokumen pembaruan dan catatan rilis untuk versi terbaru terkait fitur Job dan Transformasi.
+1. Teliti dokumen pembaruan dan catatan rilis untuk versi terbaru terkait fitur Job dan Transformasi di [https://help.hitachivantara.com/Documentation/Pentaho](https://help.hitachivantara.com/Documentation/Pentaho).
 2. Pahami perubahan yang mungkin mempengaruhi definisi Job dan Transformasi Anda.
 
 ### Langkah 4: Metode Pembaruan
