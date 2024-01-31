@@ -8,10 +8,9 @@ Dokumentasi ini memberikan panduan langkah demi langkah untuk melakukan pembarua
 
 ### Tujuan Dokumentasi:
 
-1. Memandu pengguna dalam melakukan pembaruan Pentaho Community Edition ke versi terbaru.
-2. Menjelaskan langkah-langkah khusus terkait pengelolaan Crontab Job dan pembaruan terkait pengelolaan pekerjaan terjadwal.
-3. Memberikan sumber daya untuk memahami perubahan dan peningkatan terkait Job dan Transformasi pada versi terbaru.
-4. Mendorong praktik selalu mencoba versi terbaru di lingkungan pengembangan sebelum implementasi di lingkungan produksi.
+1. Pembaruan bertujuan untuk meningkatkan kinerja keseluruhan Pentaho Community Edition, termasuk eksekusi yang lebih cepat untuk Job dan Transformasi.
+2. Memastikan akses ke fitur terbaru dan perbaikan keamanan untuk menjaga integritas dan keamanan data.
+3. Menjaga dukungan komunitas dan pengembang dengan menggunakan versi yang masih didukung, memastikan pembaruan reguler dan pemecahan masalah. Melakukan uji coba di lingkungan pengembangan untuk meminimalkan risiko dan memastikan kelancaran implementasi di lingkungan produksi.
 
 ### Requirements:
 Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi/pembaruan Pentaho Community Edition, yang mencakup:
@@ -37,6 +36,7 @@ Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi/pemb
    
    - **Hak Akses dan Izin:**
       - Memastikan hak akses dan izin yang memadai untuk melakukan instalasi dan konfigurasi.
+        
    - **Ubuntu/Linux:**
       - Untuk instalasi pada Linux/Ubuntu, pastikan untuk menginstal libwebkitgtk-1.0-0 agar PDI dapat berfungsi dengan baik. Untuk informasi lebih lanjut, kunjungi halaman Komunitas Hitachi Vantara Pentaho di [https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts](https://community.hitachivantara.com/discussion/libwebkitgtk-10-0-on-ubuntu-2204-lts).
 
