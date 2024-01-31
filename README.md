@@ -4,7 +4,7 @@
 
 ## Pengantar:
 
-Dokumentasi ini memberikan panduan langkah demi langkah untuk melakukan pembaruan Pentaho Community Edition ke versi terbaru. Selain itu, dokumentasi ini juga mencakup pengelolaan, Job dan Transformasi, Crontab Job dalam proses pembaruan Pentaho. Pembaruan Pentaho bertujuan untuk meningkatkan kinerja, mendapatkan fitur terbaru, dan memastikan keamanan dari pembaruan yang telah diperbarui oleh komunitas atau pengembang Pentaho.
+Dokumentasi ini memberikan panduan langkah demi langkah untuk melakukan pembaruan Pentaho Community Edition ke versi terbaru. Pembaruan Pentaho bertujuan untuk meningkatkan kinerja, mendapatkan fitur terbaru, dan memastikan keamanan dari pembaruan yang telah diperbarui oleh komunitas atau pengembang Pentaho.
 
 ### Tujuan Dokumentasi:
 
@@ -14,10 +14,13 @@ Dokumentasi ini memberikan panduan langkah demi langkah untuk melakukan pembarua
 4. Mendorong praktik selalu mencoba versi terbaru di lingkungan pengembangan sebelum implementasi di lingkungan produksi.
 
 ### Requirements:
-Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi Pentaho Community Edition, yang mencakup:
+Sebelum melakukan pembaruan, pastikan sistem memenuhi persyaratan instalasi/pembaruan Pentaho Community Edition, yang mencakup:
 
    - **Spesifikasi Hardware:**
-      - CPU, RAM, dan ruang penyimpanan sesuai dengan rekomendasi.
+      - Prosesor: Intel X64 atau AMD64 Dual-Core Processor atau yang lebih tinggi
+      - RAM: 8 GB atau lebih.
+      - Ruang Disk: 20 GB kosong setelah instalasi
+      - Ukuran Layar: 1280 x 960
    
    - **Sistem Operasi:**
       - Pastikan sistem operasi yang didukung, seperti Linux atau Windows, sesuai dengan versi Pentaho yang akan diinstal.
@@ -57,6 +60,7 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 1. Buat backup menyeluruh, termasuk konfigurasi pentaho di folder data-integration.
 2. Pastikan backup mencakup folder `jobs` dan `transformations` yang berisi definisi pekerjaan dan transformasi.
 3. Matikan Job/transfomasi yang berjalan di Crontab/Task Schaduler.
+4. Simpan konfigurasi Crontab sebelum pembaruan.
 
 ### Langkah 3: Baca Dokumentasi Resmi
 
@@ -68,8 +72,8 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 1. Baca dokumentasi instalasi Pentaho di [https://www.hitachivantara.com/en-us/pdf/implementation-guide/three-steps-to-install-pentaho-data-integration-ce.pdf](https://www.hitachivantara.com/en-us/pdf/implementation-guide/three-steps-to-install-pentaho-data-integration-ce.pdf)
 2. Proses pembaruan Petaho harus dilakukan di folder/direktori yang sama dengan versi sebelumnya.
 3. Pembaruan Pentaho Community Edition hanya dapat dilakukan secara manual dengan mengunduh versi terbaru di website. Terdapat dua sekenario untuk melakukan pembaruan Pentaho Community Edition:
-   -  Pembaruan dilakukan dengan menimpa folder data-integration dari versi Pentaho sebelumnya dengan versi terbaru.
-   -  Menghapus folder data-integration dari versi sebelumnya dan mengekstrak versi Pentaho terbaru di direktori yang sama.
+   -  Overwrite Install: Pembaruan dilakukan dengan menimpa folder data-integration dari versi Pentaho sebelumnya dengan versi terbaru.
+   -  Fresh Install: Menghapus folder data-integration dari versi sebelumnya dan mengekstrak versi Pentaho terbaru di direktori yang sama.
 
 ### Langkah 5: Testing Pembaruan melaui GUI Pentaho
 **1. Menjalankan Antarmuka Grafis (GUI) Pentaho:**
@@ -86,11 +90,11 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 
 **3. Evaluasi Hasil Pengujian:**
    - a. Jika tidak ada pesan error atau peringatan selama pengujian dan Job atau Transformasi berjalan dengan normal, ini menandakan bahwa proses pembaruan Pentaho Community Edition berhasil.
-   - b. Jika ada masalah, periksa log dan pesan error untuk mengidentifikasi penyebabnya, dan ambil langkah-langkah yang diperlukan untuk penyelesaian.
+   - b. Jika ada masalah, periksa log dan pesan error untuk mengidentifikasi penyebabnya.
    
 ### Langkah 6: Konfigurasi Crontab/Task Schaduler
 
-1. Jika menggunakan Crontab Job, simpan konfigurasi Crontab sebelum pembaruan dan aktifkan kembali jika proses pembaruan dan testing sukses.
+1. Setlah proses pembaruan berhasil buka simpan konfigurasi Crontab dan aktifkan kembali Job/Transfomasi yang berjalan.
 2. Jika terdapat perubahan,perbarui atau sesuaikan Crontab Job sesuai dengan perubahan pada Job dan Transformasi.
    
 ### Langkah 7: Backup Konfigurasi dan Definisi Job/Transformasi
