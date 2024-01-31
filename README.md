@@ -90,18 +90,16 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
    
 ### Langkah 6: Konfigurasi Crontab/Task Schaduler
 
-1. Jika menggunakan Crontab Job, simpan konfigurasi Crontab sebelum pembaruan.
-2. Perbarui atau sesuaikan Crontab Job sesuai dengan perubahan mungkin pada definisi Job dan Transformasi.
-1. Tinjau kembali konfigurasi Pentaho untuk memastikan integrasi yang baik dengan Job dan Transformasi.
-2. Sesuaikan konfigurasi jika diperlukan untuk mempertahankan integrasi.
-
+1. Jika menggunakan Crontab Job, simpan konfigurasi Crontab sebelum pembaruan dan aktifkan kembali jika proses pembaruan dan testing sukses.
+2. Jika terdapat perubahan,perbarui atau sesuaikan Crontab Job sesuai dengan perubahan pada Job dan Transformasi.
+   
 ### Langkah 7: Backup Konfigurasi dan Definisi Job/Transformasi
 
 1. Pastikan file konfigurasi dan definisi Job/Transformasi di-backup kembali.
 2. Simpan backup ini di tempat yang aman untuk pemulihan jika diperlukan.
 
 ### Langkah 8: Dukungan Komunitas
-1. Bergabunglah dengan forum komunitas Pentaho atau hubungi dukungan teknis jika mengalami masalah terkait Job dan Transformasi.
+1. Bergabunglah dengan forum komunitas Pentaho jika mengalami masalah terkait Job dan Transformasi.
 2. Manfaatkan sumber daya online untuk pertanyaan dan pemecahan masalah terkait Job dan Transformasi.
 
 ---
@@ -109,4 +107,4 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 **Catatan Penting:**
 - Pastikan untuk merujuk pada dokumentasi resmi yang terkait dengan versi spesifik Pentaho yang Anda perbarui.
 - Proses pembaruan untuk Job dan Transformasi dapat membutuhkan uji coba yang lebih menyeluruh dan pemahaman yang mendalam terhadap perubahan yang terjadi.
-- Implementasikan pembaruan terlebih dahulu di lingkungan pengembangan untuk memitigasi risiko sebelum diterapkan di lingkungan produksi.
+- Implementasikan pembaruan terlebih dahulu di Development Environment untuk memitigasi risiko sebelum diterapkan di Production Environment.
