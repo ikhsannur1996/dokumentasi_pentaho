@@ -49,7 +49,7 @@ Dengan memperhatikan persyaratan ini, pengguna dapat memastikan bahwa sistemnya 
 2. Buka situs resmi untuk Download Pentaho Community Edition di [https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html](https://www.hitachivantara.com/en-us/products/pentaho-plus-platform/data-integration-analytics/pentaho-community-edition.html).
 3. Di bagian unduhan, temukan dan identifikasi versi terbaru dari Pentaho Community Edition (Direkomendasikan untuk menggunakan Long Term Support untuk Environment Production).
 4. Periksa catatan rilis untuk mendapatkan informasi lebih lanjut tentang perubahan dan peningkatan.
-5. Verifikasi persyaratan terkait dengan versi Pentaho yang akan diinstal. Pentaho memerlukan GUI dan Java versi 8 ke atas.
+5. Verifikasi persyaratan terkait dengan versi Pentaho yang akan diinstal. Pentaho memerlukan GUI dan Versi Java SE antara 11 hingga 18 dapat digunakan.
 6. Jika diperlukan, lakukan testing di Environment Development terlebih dahulu sebelum melakukan Deployment versi Pentaho terbaru di Environment Production.
 .
 ### Langkah 2: Backup Data dan Konfigurasi Job/Transformasi
