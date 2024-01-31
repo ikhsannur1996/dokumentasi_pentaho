@@ -1,4 +1,4 @@
-**Dokumentasi Pembaruan Pentaho Community Edition - Pembaruan ke Versi, Job, Transformasi, dan Crontab Job:**
+**Dokumentasi Pembaruan Pentaho Community Edition:**
 
 ---
 
